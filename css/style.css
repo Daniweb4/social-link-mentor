@@ -14,10 +14,15 @@ section{
     border-radius: 8px;
     background-color:  hsl(0, 0%, 12%);
     
-}@media (max-width:670px){
+}@media (max-width:760px){
     section{
-        width: 100%;
-        margin: auto;
+        width: 100%;  
+    }.link{
+        display: flex;
+        width: 85%;
+        
+    }h3{
+        text-align: center;
     }
 }
 img{
